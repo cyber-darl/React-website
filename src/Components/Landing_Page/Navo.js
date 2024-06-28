@@ -1,9 +1,9 @@
 import React from 'react';
-import './Navbar.css';
 
 
 
-const Navbar = () => {
+
+const Navo = () => {
 
  return (
 
@@ -44,4 +44,4 @@ const Navbar = () => {
 
 }
 
-export default Navbar;
+export default Navo;
