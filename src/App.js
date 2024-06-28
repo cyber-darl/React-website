@@ -12,6 +12,7 @@ function App() {
         <BrowserRouter>
           <Navbar/>
               <Routes>
+                <Route path ="/" element={<Landing_Page/>} />
               </Routes>
             
         </BrowserRouter>
