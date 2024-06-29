@@ -1,10 +1,13 @@
 import React from "react"; // Importing React library for building UI components
 import { Link } from "react-router-dom"; // Importing Link component from react-router-dom for navigation
+import Navbar from '../Navbar/Navbar';
 import "./Landing_Page.css"; // Importing styles for Landing Page component
 
 // Functional component for the Landing Page
 const Landing_Page = () => {
   return (
+ <>
+ <Navbar/>
     <section className="hero-section"> {/* Hero section container */}
       <div>
         <div data-aos="fade-up" className="flex-hero"> {/* Div container with fade-up animation */}
@@ -37,6 +40,7 @@ const Landing_Page = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
