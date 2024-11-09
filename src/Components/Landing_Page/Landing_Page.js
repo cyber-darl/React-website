@@ -17,7 +17,7 @@ const Landing_Page = () => {
 
  {/* Main heading for the Landing Page */}
               <span className="text-gradient">
-                Our Responsibility {/* Subheading with gradient effect */}
+                Our Responsibilitys {/* Subheading with gradient effect */}
               </span>
             </h1>
             
